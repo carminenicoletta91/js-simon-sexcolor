@@ -2,7 +2,8 @@
 // Dopo 30 secondi l’utente deve inserire un prompt alla volta i numeri che ha
 // visto precedentemente.Dopo che sono stati inseriti i 5 numeri,
 // il software dice quanti e quali dei numeri da indovinare sono stati individuati;
-
+alert("ciao benvenuto in memory");
+alert("Ti mostrero 5 numeri...... memorizzali!!! ")
 var numArrayca = [];
 
 // ciclo per generare 5 numeri casuali

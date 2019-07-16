@@ -38,3 +38,7 @@ function inserisciNum(){
 }
 
 setTimeout(inserisciNum, 30000);
+
+var snd = new Audio("song.mp3");
+console.log(snd);
+snd.play();

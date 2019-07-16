@@ -25,7 +25,7 @@ function inserisciNum(){
   // creo array per visualizzare i numeri indovinati
   var indovinati = [] ;
   for( var i = 0 ; i < 5 ;i++ ){// ciclo inserimento 5 numeri
-    n = prompt( "Inserisci il  numero" );
+    n = parseInt(prompt( "Inserisci il  numero" ));
     for( var  j = 0 ; j < numArrayca.length ; j++){ //ciclo per leggere i numeri gen casualmente presenti nell'array
       if( n == numArrayca[j] ){
         cont += 1;
